@@ -31,9 +31,25 @@ window :
      type_code : 4
      p_codes :
       -
-        code : |1-
+        code : |1+
          info("test")
         type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Bouton2
+    identifier : 0x23e39ef001ef074a
+    internal_properties : BwAAAAcAAAAF5FSOImc668VJj2BEVUmdfbG73wvnSWdMg+8xcdADg8s8F0V6EGUOlYJiI1gnPNNQnisAKJMd6nt1mqpVlQcRC5J5QkZIDKu0dq2Q6tVSQ4DBRL1dfkmDUZmEd7yKJroY3vEl9x/r8kpMcAy1zBG3wn9jCld1QSEjTW1gP9S1sbSERiSLWu1X1Q2cHGtLnjhFsmvAZHVg0KzD/yIKs46ghGa0MGuAb2CrqF3wCkqcsbk1NTSsUwpRbDW9pLVoL4uoGiDoPOGdjhqQcLgRNGN81aTTS2XYxtPTNEyqgDupWxgjScioP8DtEDPd3AikkrPEa5XFwaAP2P6RQ97NP26jmG/5PxrHOjGAY/SkDJ38YOyeQE6GfhtEyURLi5xEUOIucopWXk/ABiUoZNprSQHElbEmjwPqPlzhjfyuEN4OiU+yQwClP0zkd7kNuZD/qXB5gIK0LkgACi+qsWgt7F0+m1h4o2s6mBrBPe19e65X8NtRtAvlP+wd/oeMiSSLrTyEhSjWJbCBV0YciWbDuNDzY+4wTEe6rcxqlkXmoOF/wOWZOIbeuD4WqcdOIsvRFCNM5A6FsE3TJMGgWbqNhWw5pbYTrCEBPOtxnJ8gxC1I6/IjWggERK6N30dL7pWnESMXZs8U9xoPAu0bMnhbJ12KkHeSHp3beRDz8Mdjv3GOyGs19KlO9iROLS2Wys9du8GhvE9utlzfimwN6Q90CEDxY/FHd5Gqucn1d4/k/NrTqHYS6u/AOcwwmASTthO0riWaUw58qaJI0f9RnkuWmsS6ZvZURCuSyCH66TyyZ7PMrCyvIrmcP1qj0VlecuboUg==
+    properties :
+     x : 527
+     y : 364
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
       -
         type : 161
         enabled : false
