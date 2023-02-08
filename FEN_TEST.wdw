@@ -16,7 +16,27 @@ window :
   height : 600
   widthClient : 798
   heightClient : 568
- controls : []
+ controls :
+  -
+    name : Bouton1
+    identifier : 0x23e39e3c01d94626
+    internal_properties : BwAAAAcAAACmz0Mlpz1ZuuVoNqKgtizaAsxCNVxfwa+1d24PpGdq18zIeCTvh163JJKViXkX8vdzgMGF04KyNWu1InHXim5xOECjMqro8sOe1CSbVy+1xYAqTBD7k0SIC8tZbQ5KbjZx4ZT8aRv0B9kSwDl1H+/YskC0DcV9wVD/5Qxl4W/VVPqSJCAzsQt4fbRNWSSNodcHDLwSFBVpXTDIaxIYfcOvE7lRx0VVrcNYD4tsO2ongsKEM5CvuTbjpRUvAqzW6oNYBGUDg9IWBSo10vDc9/+q9PbID7D+WA0O05mkE2+/8NU6mHmy6tnxd82u1HAWlSN2zUAYE6AL9fHUMWa2BsvAfCoKCFWkgseOYYIHJ7rijdaH8nFM9d59Kl+bzB4Tgc0okKBkveS1WP88Ip9+0d0ep1SaJ7ZLT5qwjAxv5Y8dSaGdxOk/lKoEHPFgV5KDl1DMbNNVCnE9EJyfBTOB/E7ELCVYdoAPpCYkqGric3yheuRNhrW2+vAAU1E8GVTPQEXsCQY5GIPwKuaqSi6Kk9Vv6KQSlbsMGvTUdXG6eVvx84vlFd9nz3kJ0UfLjf8+Qg5Fr5dnMKpMxz7Kd1n0VerIZkoZXSAIcRh0JhBTHV0750IdOiSw5NWrtce/fYqGwa/4Jk3PXO18vqRIyfrt1yhM7cu6pRNATbHyRp32x1aCZwCKEuizCOSEfWexSeYVYZFfVX0LNZPyXXjeSMe4jEAnSumxA2/AudjO6yiJ7HqWfE2LlHHX8kGdnJfzn4MIAJxD30hYuI/RhYK9jYKBiG0xDLOI4sVxl442Uk+5ULGgTcJQKU4uWLl2XfWvlB2K
+    properties :
+     x : 150
+     y : 197
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         info("test")
+        type : 18
+      -
+        type : 161
+        enabled : false
  menu :
   name : _Menu
   identifier : 0x292573e513b5f221
